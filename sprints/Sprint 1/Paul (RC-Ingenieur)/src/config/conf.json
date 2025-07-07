@@ -1,0 +1,41 @@
+{
+    "vehicle" : {
+        "type" : "car",
+        "name" : "clara_simulator"
+    },
+    "program" : {
+        "debug": true,
+        "headless": false
+    },
+    "connection" : {
+        "type" : "wifi",
+        "interface" : "auto",
+        "ssid" : "FRITZ!Box 7530 JT",
+        "password" : "03118571628822714548"
+    },
+    "input" : {
+        "lib" : "inputs"
+    },
+    "communication" : {
+        "encoding" : {
+            "ABS_RZ" : "acc",
+            "ABS_Z" : "dcc",
+            "ABS_X" : "str",
+            "BTN_TR" : "ems"
+        },
+        "encoding_norm" : {
+            "ABS_RZ" : 255,
+            "ABS_Z" : 255,
+            "ABS_X" : 65535
+        }
+    },
+    "gui" : {
+        "encoding" : {
+            "BTN_START" : "gui_menu",
+            "BTN_NORTH" : "gui_select",
+            "BTN_SOUTH" : "gui_back",
+            "ABS_HAT0Y" : "gui_du",
+            "ABS_HAT0X" : "gui_rl"
+        }
+    }
+}
