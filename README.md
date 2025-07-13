@@ -27,7 +27,7 @@ Bitte versucht mir zuzuhören und mitzudenken, sonst dauert das alles ewig...
 | Sprint nr. | Was?                | Funktion am Ende                                                        |
 | ---------- | ------------------- | ----------------------------------------------------------------------- |
 | 1          | Simulation, Vehicle | Simulationsfenster öffnet sich (noch kein controller zum kontrollieren) |
-| 2          | RC stuff            | GUI funktioniert, Controller output ist da (debug print)                |
+| 2          | RC stuff            | GUI funktioniert, Controller output ist da (debug print), shutdown funktioniert               |
 | 3          | Messaging, encoding | Networking, logging, alles andere                                       |
 
 ### Danach
